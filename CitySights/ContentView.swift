@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
 	
 	@State var query: String = ""
+	var dataService = DataService()
 	
 	var body: some View {
 		HStack {
@@ -22,6 +23,9 @@ struct ContentView: View {
 			}
 		}
 		.padding()
+		.task {
+			await dataService.businessSearch()
+		}
 	}
 }
 

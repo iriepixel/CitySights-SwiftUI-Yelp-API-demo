@@ -11,6 +11,7 @@
 		06B2AC792C00A58100C0D821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B2AC782C00A58100C0D821 /* ContentView.swift */; };
 		06B2AC7B2C00A58100C0D821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B2AC7A2C00A58100C0D821 /* Assets.xcassets */; };
 		06B2AC7E2C00A58100C0D821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B2AC7D2C00A58100C0D821 /* Preview Assets.xcassets */; };
+		06B2AC872C00ED3600C0D821 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B2AC862C00ED3600C0D821 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		06B2AC7D2C00A58100C0D821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		06B2AC842C00E6F500C0D821 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		06B2AC852C00E9C600C0D821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		06B2AC862C00ED3600C0D821 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				06B2AC852C00E9C600C0D821 /* Info.plist */,
 				06B2AC762C00A58100C0D821 /* CitySightsApp.swift */,
 				06B2AC782C00A58100C0D821 /* ContentView.swift */,
+				06B2AC862C00ED3600C0D821 /* DataService.swift */,
 				06B2AC842C00E6F500C0D821 /* Config.xcconfig */,
 				06B2AC7A2C00A58100C0D821 /* Assets.xcassets */,
 				06B2AC7C2C00A58100C0D821 /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06B2AC872C00ED3600C0D821 /* DataService.swift in Sources */,
 				06B2AC792C00A58100C0D821 /* ContentView.swift in Sources */,
 				06B2AC772C00A58100C0D821 /* CitySightsApp.swift in Sources */,
 			);
