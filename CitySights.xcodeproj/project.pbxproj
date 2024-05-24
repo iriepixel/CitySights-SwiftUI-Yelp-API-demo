@@ -12,6 +12,8 @@
 		06B2AC7B2C00A58100C0D821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B2AC7A2C00A58100C0D821 /* Assets.xcassets */; };
 		06B2AC7E2C00A58100C0D821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06B2AC7D2C00A58100C0D821 /* Preview Assets.xcassets */; };
 		06B2AC872C00ED3600C0D821 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B2AC862C00ED3600C0D821 /* DataService.swift */; };
+		06B2AC8A2C011E8600C0D821 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B2AC892C011E8600C0D821 /* BusinessSearch.swift */; };
+		06B2AC8C2C01281B00C0D821 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B2AC8B2C01281B00C0D821 /* Business.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		06B2AC842C00E6F500C0D821 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		06B2AC852C00E9C600C0D821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		06B2AC862C00ED3600C0D821 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		06B2AC892C011E8600C0D821 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
+		06B2AC8B2C01281B00C0D821 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		06B2AC752C00A58100C0D821 /* CitySights */ = {
 			isa = PBXGroup;
 			children = (
+				06B2AC882C011E6600C0D821 /* Model */,
 				06B2AC852C00E9C600C0D821 /* Info.plist */,
 				06B2AC762C00A58100C0D821 /* CitySightsApp.swift */,
 				06B2AC782C00A58100C0D821 /* ContentView.swift */,
@@ -72,6 +77,15 @@
 				06B2AC7D2C00A58100C0D821 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06B2AC882C011E6600C0D821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06B2AC892C011E8600C0D821 /* BusinessSearch.swift */,
+				06B2AC8B2C01281B00C0D821 /* Business.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				06B2AC872C00ED3600C0D821 /* DataService.swift in Sources */,
+				06B2AC8A2C011E8600C0D821 /* BusinessSearch.swift in Sources */,
 				06B2AC792C00A58100C0D821 /* ContentView.swift in Sources */,
+				06B2AC8C2C01281B00C0D821 /* Business.swift in Sources */,
 				06B2AC772C00A58100C0D821 /* CitySightsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
