@@ -23,12 +23,32 @@ struct ContentView: View {
 				} label: {
 					Text("Go")
 				}
+				.padding(.horizontal)
 			}
-			List(businesses) {b in
-				Text(b.name ?? "No Title")
+			.padding(.horizontal)
+			List {
+				ForEach(businesses) { b in
+					VStack(spacing: 20) {
+						HStack(spacing: 10) {
+							Image("list-placeholder-image")
+							VStack(alignment: .leading, spacing: 3) {
+								Text(b.name ?? "No Title")
+									.font(Font.system(size: 16))
+									.bold()
+								Text(TextHelper.distanceAwayText(meters: b.distance ?? 0))
+									.font(Font.system(size: 14))
+									.foregroundColor(.gray)
+							}
+							Spacer()
+							Image("regular_\(TextHelper.roundRating(rating: b.rating ?? 0))")
+						}
+						Divider()
+					}
+				}
+				.listRowSeparator(.hidden)
 			}
+			.listStyle(.plain)
 		}
-		.padding()
 		.task {
 			businesses = await dataService.businessSearch()
 		}
